@@ -116,7 +116,8 @@
 
 #contact{
     margin-left: 5%;
-    margin-right: 5%
+    margin-right: 5%;
+    margin-bottom: 150px;
 }
 
 #contact>p{
@@ -139,4 +140,69 @@
     font-family: 'Barlow';
     border: none;
     border-radius: 50px;
+}
+
+@media screen and (max-width: 1025px) {
+    #jeux-container, #ateliers-container, #events-container{
+        flex-direction: column;
+    }
+
+    img{
+        max-width: 250px;
+    }
+
+    #services>h1{
+        font-size: 50px;
+        padding-top: 75px;
+    }
+
+    #services>h3{
+        margin-right: 5%;
+        margin-left: 5%;
+        font-size: 20px;
+    }
+
+    .jeu-card{
+        max-width: none;
+        margin-right: 5%;
+        margin-left: 5%;
+
+    }
+
+    .jeu-card>img{
+        max-width: 150px;
+        margin-top: 50px;
+    }
+
+    #ateliers-image, #events-image{
+        text-align: center;
+    }
+
+    #ateliers-image{
+        margin-top: 75px;
+    }
+
+    #events-image{
+        margin-bottom: 75px;
+    }
+
+    #ateliers-content>h3, #events-content>h3{
+        text-align: center;
+    }
+
+    #ateliers-content>a, #events-content>a{
+        text-align: center;
+    }
+
+    #contact>p{
+        font-size: 35px;
+        text-align: center;
+        margin-top: 75px;
+        margin-bottom: 50px;
+    }
+
+    #contact-button{
+        text-align: center;
+        margin-top: 25px;
+    }
 }
