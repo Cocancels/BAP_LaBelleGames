@@ -34,14 +34,16 @@
         <div id="project-container">
             <div id="project-content">
                 <p>Les monstres ne le sont qu'à nos yeux. Levons le voile de l'inconnu pour découvrir les merveilles qui s'y cachent</p>
-                <a>Voir le projet</a>
+                <div id="project-link">
+                    <a href="/projects/projet-2">Voir le projet</a>
+                </div>
             </div>
 
             <div id="project-image">
                 <img src="<?= url('assets/images/project1.png') ?>">
             </div>
         </div>
-
+        <hr id="hr">
         <div id="project2-container">
             <div id="project2-image">
                 <img src="<?= url('assets/images/project2.png') ?>">
@@ -49,7 +51,9 @@
 
             <div id="project2-content">
                 <p>Urbanistes en herbes, à vos consoles pour créer les villes de demain !</p>
-                <a>Voir le projet</a>
+                <div id="project2-link">
+                    <a href="/projects/projet-1">Voir le projet</a>
+                </div>
             </div>
         </div>
     </section>

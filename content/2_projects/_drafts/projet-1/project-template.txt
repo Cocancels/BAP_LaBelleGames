@@ -2,8 +2,36 @@ Title: Projet 1
 
 ----
 
-Nom: Projet 1
+Nom: Block'Hood
 
 ----
 
-Categorie: Categorie 1
+Categorie: Simulation
+
+----
+
+Categorie2: Construction
+
+----
+
+Video: https://www.youtube.com/embed/zyUfSzXqf7M
+
+----
+
+Synopsis: Block’hood est un simulateur de construction de quartiers qui célèbre la diversité et l’expérimentation des villes et des écosystèmes uniques qui les composent. Les urbanistes en herbe auront accès à plus de 200 blocs de construction pour combiner et créer des quartiers uniques et découvrir les implications de leurs conceptions.
+
+----
+
+Plateformes: PC / Mobile
+
+----
+
+Date: 2020-12-01
+
+----
+
+Editeur: Arte
+
+----
+
+Steam: https://store.steampowered.com/app/416210/Blockhood/

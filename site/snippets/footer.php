@@ -5,37 +5,37 @@
             <div>
                 <ul>
                     <li>
-                        <a>A propos</a>
+                        <a href="/association">A propos</a>
                     </li>
 
                     <li>
-                        <a>Projets</a>
+                        <a href="/projects">Projets</a>
                     </li>
 
                     <li>
-                        <a>Services</a>
+                        <a href="/services">Services</a>
                     </li>
 
                     <li>
-                        <a>Partenariats</a>
+                        <a href="/partenariats">Partenariats</a>
                     </li>
                 </ul>
             </div>
             <div>
                 <ul>
                     <li>
-                        <a>Blog</a>
+                        <a href="/blog">Blog</a>
                     </li>
 
                     <li>
-                        <a>Contact</a>
+                        <a href="/contact">Contact</a>
                     </li>
                 </ul>
             </div>
             <div>
                 <ul>
-                    <li><a>Politique de confidentialité</a></li>
-                    <li><a>Mentions légales</a></li>
+                    <li><a href="confidentialite">Politique de confidentialité</a></li>
+                    <li><a href="mentions">Mentions légales</a></li>
                     <li><a>FAQ</a></li>
                 </ul>
             </div>

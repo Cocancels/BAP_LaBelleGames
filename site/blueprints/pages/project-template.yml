@@ -5,7 +5,30 @@ sections:
       nom:
         type: text
       categorie:
+        label: Catégorie 1
         type: text
+        width: 1/2
+      categorie2:
+        label: Catégorie 2
+        type: text
+        width: 1/2
+      video:
+        label: Vidéo
+        type: url
+      synopsis:
+        type: textarea
+        size: medium
+      plateformes:
+        type: text
+      date:
+        label: Date de parution
+        type: date
+      editeur:
+        label: Editeur
+        type: text
+      steam:
+        label: Lien Steam
+        type: url
 
   photo:
     type: files

@@ -159,7 +159,7 @@
         <div id="discover">
             <p>Maintenant que vous savez tout de nous, envie de voir les fruits de notre travail ? Alors cliquez pour découvrir l'ensemble de nos projets créatifs.</p>
             <div id="discover-button">
-                <button>Découvrir nos projets</button>
+                <a href="/projects">Découvrir nos projets</a>
             </div>
         </div>
     </section>
