@@ -1,2 +1,54 @@
 Title: A propos
 
+----
+
+Accroche: Chez Games for a Better World,  nous ne jouons pas avec l'avenir
+
+----
+
+Accroche2: Nous croyons au pouvoir des jeux vidéos pour faire avance le monde dans la bonne direction
+
+----
+
+Logos:
+
+- ic_circle1.png
+- ic_circle2.png
+- ic_circle3.png
+- ic_circle4.png
+
+----
+
+Titre: Une équipe composée de passionnés voulant rendre le monde meilleur
+
+----
+
+Contenu: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+----
+
+Textepartenaire: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+
+----
+
+Partenaire-1: https://arte.com
+
+----
+
+Partenaire-2: 
+
+----
+
+Partenaire-3: 
+
+----
+
+Partenaire-4: 
+
+----
+
+Partenaire-5: 
+
+----
+
+Partenaire-6: 

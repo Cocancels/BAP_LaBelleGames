@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#top-page{
+    text-align: center;
+    background-image: url("../../images/Exclusion\ 9_2.png");
+    height: 632px;
+}
+
+#accroche{
+    width: 750px;
+    margin: auto;    
+    margin-top: 150px;
+
+}
+
+#accroche h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 75px;
+}
+
+#accroche p{
+    font-family: 'Barlow';
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+
+#believe{
+    padding-top: 50px;
+    background-color: #0F1426;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.accroche2{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    font-size: 40px;
+    font-family: 'Amatic SC';
+
+}
+
+#believe ul{
+    font-family: 'Barlow';
+
+}
+
+#believe ul li{
+    display: flex;
+    align-items: center;
+
+}
+
+#believe ul li p{
+    margin-left: 15px;
+
+}
+
+#background-div{
+    height: 350px;
+}
+
+#equipe>h2{ 
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Amatic SC';
+    margin-bottom: 150px;
+
+}
+
+#equipe-text{
+    flex-direction: column;
+    display: flex;
+    align-self: center;
+}
+
+#equipe-text>h2{ 
+    font-size: 30px;
+    font-family: 'Barlow';
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+
+}
+
+#equipe-content{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Barlow';
+    font-size: 20px;
+}
+
+#equipe-text, #equipe-image{
+    width: 40%;
+}
+
+#section-member{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#members-title{
+    font-family: 'Barlow';
+}
+
+#membres{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#member-card{
+    background-color: #D57A83;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+
+}
+
+#member-card:not(:first-child){
+    margin-left: 50px;
+}
+
+
+#member-image>img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+
+}
+
+.prenom-membre{
+    color: white;
+    font-weight: bold;
+    font-family: 'Barlow';
+    font-size: 20px;
+}
+
+.fonction-membre{
+    color: #A0C3C6;
+    font-size: 15px;
+    font-family: 'Barlow';
+
+}
+
+#main{
+    max-width: 100%;
+}
+
+#partenaires{
+    text-align: center;
+    margin-top: 75px;
+}
+
+#partenaires>h2{
+    font-family: 'Amatic SC';
+    font-size: 45px;
+    margin-bottom: 75px;
+}
+
+#partenaires>p{
+    font-family: 'Barlow';
+    font-size: 20px;
+    width: 40%;
+    margin: auto;
+    
+}
+
+.partenaire-container{
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partenaire-card{
+    height: 200px;
+    width: 500px;
+    background-color: #0F1426;
+    border-radius: 20px;
+}

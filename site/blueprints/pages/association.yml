@@ -1,0 +1,57 @@
+sections:
+  content:
+    type: fields
+    fields:
+      accroche:
+        type: text
+        width: 1/2
+      accroche2:
+        type: text
+        width: 1/2
+
+  images:
+    type: fields
+    layout: cards
+    fields:
+      logos:
+        type: files
+
+  equipe:
+    type: fields
+    fields:
+      titre:
+        type: text
+      contenu:
+        type: textarea
+        size: medium
+
+  membres:
+    type: pages
+    layout: cards
+    image:
+      cover: true
+
+  partenaire:
+    type: fields
+    fields:
+      textePartenaire:
+        label: Texte Partenaire
+        type: textarea
+      partenaire 1:
+        type: url
+        width: 1/3
+      partenaire 2:
+        type: url
+        width: 1/3
+      partenaire 3:
+        type: url
+        width: 1/3
+      partenaire 4:
+        type: url
+        width: 1/3
+      partenaire 5:
+        type: url
+        width: 1/3
+      partenaire 6:
+        type: url
+        width: 1/3

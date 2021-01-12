@@ -1,8 +1,6 @@
 footer {
     width: 100%;
     min-height: 516px;
-    position: absolute;
-    bottom: 0;
     background-image: url(../../images/Exclusion\ 7@2x.png);
     background-size: cover;
     display: flex;

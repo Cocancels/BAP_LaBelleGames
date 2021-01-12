@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <?= $page->title() ?>
+    </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <?= css("assets/css/templates/header.css") ?>
+    <?= css("assets/css/templates/footer.css") ?>
+    <?= css('@auto') ?>
+</head>
+
+
+<body>
+
+    <?php snippet('header') ?>
+
+    <div id="top-page">
+        <div id="accroche">
+            <h1><?= $page->accroche() ?></h1>
+            <p>Nos raisons d'être</p>
+        </div>
+
+    </div>
+
+
+    <div id="believe">
+        <p class="accroche2"><?= $page->accroche2() ?></p>
+
+        <ul>
+            <li><?= $page->images()->nth(0) ?><p>Notre équipe</p>
+            </li>
+            <li><?= $page->images()->nth(1) ?><p>Nos partenaires</p>
+            </li>
+            <li><?= $page->images()->nth(2) ?><p>Notre philosophie</p>
+            </li>
+            <li><?= $page->images()->nth(3) ?><p>Notre histoire</p>
+            </li>
+        </ul>
+    </div>
+
+    <div id="background-div"></div>
+    <div id="equipe">
+        <h2>Notre équipe</h2>
+        <div id="equipe-content">
+            <div id="equipe-text">
+                <h2><?= $page->titre() ?></h2>
+                <p><?= $page->contenu() ?></p>
+            </div>
+            <div id="equipe-image">
+                <img src="<?= url('assets/images/img_300x300.png') ?>">
+            </div>
+        </div>
+    </div>
+
+    <section id="section-member">
+        <h2 id="members-title">Les membres du bureau</h2>
+
+        <div id="membres">
+            <?php foreach ($page->drafts() as $item) : ?>
+                <div id="member-card">
+                    <div id="member-image">
+                        <?= $item->image() ?>
+                    </div>
+                    <p class="prenom-membre"><?= $item->prenom() ?>
+                        <?= $item->nom() ?></p>
+                    <p class="fonction-membre"><?= $item->fonction() ?></p>
+                </div>
+            <?php endforeach ?>
+        </div>
+    </section>
+
+    <section id="projects">
+
+        <img id="main" src="<?= url('assets/images/mains.png') ?>">
+
+        <div id="partenaires">
+            <h2>Nos partenaires</h2>
+            <p><?= $page->textePartenaire() ?></p>
+        </div>
+
+        <div class="partenaire-container">
+            <a href="<?= $page->partenaire_1() ?>">
+                <div class="partenaire-card">
+                </div>
+            </a>
+            <a href="<?= $page->partenaire_2() ?>">
+                <div class="partenaire-card">
+                </div>
+            </a>
+            <a href="<?= $page->partenaire_3() ?>">
+                <div class="partenaire-card">
+                </div>
+            </a>
+        </div>
+
+        <div class="partenaire-container">
+            <a href="<?= $page->partenaire_4() ?>">
+                <div class="partenaire-card">
+                </div>
+            </a>
+            <a href="<?= $page->partenaire_5() ?>">
+                <div class="partenaire-card">
+                </div>
+            </a>
+            <a href="<?= $page->partenaire_6() ?>">
+                <div class="partenaire-card">
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <?php snippet('footer') ?>
+
+
+
+</body>
+
+</html>
