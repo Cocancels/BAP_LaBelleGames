@@ -45,8 +45,7 @@
         </ul>
     </div>
 
-    <div id="background-div"></div>
-    <div id="equipe">
+    <section id="equipe">
         <h2>Notre équipe</h2>
         <div id="equipe-content">
             <div id="equipe-text">
@@ -57,7 +56,7 @@
                 <img src="<?= url('assets/images/img_300x300.png') ?>">
             </div>
         </div>
-    </div>
+    </section>
 
     <section id="section-member">
         <h2 id="members-title">Les membres du bureau</h2>
@@ -113,6 +112,53 @@
                 <div class="partenaire-card">
                 </div>
             </a>
+        </div>
+    </section>
+
+    <section id="philosophie">
+        <h2>Notre philosophie</h2>
+        <div id="philosophie-content">
+            <div id="img-philosophie">
+                <img src="<?= url('assets/images/handgame.png') ?>">
+            </div>
+            <div id="philosophie-value">
+                <div class="valeur 1">
+                    <h3><?= $page->value1() ?></h3>
+                    <p><?= $page->valueContent1() ?></p>
+                </div>
+
+                <div class="valeur 2">
+                    <h3><?= $page->value2() ?></h3>
+                    <p><?= $page->valueContent2() ?></p>
+
+                </div>
+
+                <div class="valeur 3">
+                    <h3><?= $page->value3() ?></h3>
+                    <p><?= $page->valueContent3() ?></p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="histoire">
+        <h2>Notre histoire</h2>
+        <div id="histoire-container">
+            <div id="histoire-content">
+                <h2><?= $page->histoiretitle() ?></h2>
+                <p><?= $page->histoirecontent() ?></p>
+            </div>
+            <div id="histoire-image">
+                <img src="<?= url('assets/images/histoireimage.png') ?>">
+            </div>
+        </div>
+
+        <div id="discover">
+            <p>Maintenant que vous savez tout de nous, envie de voir les fruits de notre travail ? Alors cliquez pour découvrir l'ensemble de nos projets créatifs.</p>
+            <div id="discover-button">
+                <button>Découvrir nos projets</button>
+            </div>
         </div>
     </section>
 
