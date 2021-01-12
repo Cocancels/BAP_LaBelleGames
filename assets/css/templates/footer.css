@@ -84,7 +84,11 @@ li{
     margin-left: 5px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1025px) {
+    footer{
+        min-height: 800px;
+    }
+
     #footer-container{
         flex-direction: column;
         padding-top: 60px;
