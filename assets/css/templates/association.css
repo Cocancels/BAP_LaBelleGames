@@ -62,8 +62,11 @@
 
 }
 
-#background-div{
-    height: 350px;
+#equipe{
+    background-image: url("../../images/divider_2.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #equipe>h2{ 
@@ -71,6 +74,7 @@
     text-align: center;
     text-transform: uppercase;
     font-family: 'Amatic SC';
+    padding-top: 500px;
     margin-bottom: 150px;
 
 }
@@ -153,6 +157,13 @@
 
 }
 
+#projects{
+    background-image: url("../../images/divider_1.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 500px;
+}
+
 #main{
     max-width: 100%;
 }
@@ -160,6 +171,7 @@
 #partenaires{
     text-align: center;
     margin-top: 75px;
+
 }
 
 #partenaires>h2{
@@ -189,4 +201,117 @@
     width: 500px;
     background-color: #0F1426;
     border-radius: 20px;
+}
+
+#philosophie{
+    background-color: #0F1426;
+
+
+}
+
+#philosophie>h2{
+    color: white;  
+    margin-bottom: 100px;
+    font-family: 'Amatic SC';
+    font-size: 45px;
+    text-align: center;
+}
+
+#philosophie-content{
+    display: flex;
+}
+
+#img-philosophie{
+    width: 50%;
+    text-align: center;
+}
+
+#philosophie-value{
+    width: 50%;
+    font-family: 'Barlow';
+}
+
+.valeur>h3{
+    font-size: 30px;
+    color: #66ADA9;
+    margin-top: 50px;
+}
+
+.valeur>p{
+    color:white;
+    font-size: 20px;
+    margin-right: 150px;
+}
+
+#histoire{
+    background-image: url("../../images/Exclusion\ 8.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-top: -1px;
+}
+
+#histoire>h2{
+    text-align: center;
+    font-family: 'Amatic SC';
+    font-size: 45px;
+    padding-top: 200px;
+    margin-bottom: 100px;
+}
+
+#histoire-container{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#histoire-content{
+    font-family: 'Barlow';
+    color: black;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+}
+
+#histoire-content>h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+
+#histoire-image>img{
+    max-width: 600px;
+}
+
+#discover{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#discover>p{
+    font-family: 'Amatic SC';
+    font-size: 50px;
+
+}
+
+#discover-button{
+    text-align: right;
+
+}
+
+#discover-button>button{
+    font-size: 17.5px;
+    margin-top: 20px;
+    font-family: 'Barlow';
+    font-weight: bold ;
+    padding: 20px;
+    color: white;
+    background-color: palevioletred;
+    border: none;
+    border-radius: 50px;
+    text-transform: uppercase;
 }

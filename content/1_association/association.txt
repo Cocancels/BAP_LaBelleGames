@@ -31,24 +31,65 @@ Textepartenaire: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di
 
 ----
 
-Partenaire-1: https://arte.com
+Partenaire1: https://arte.com
 
 ----
 
-Partenaire-2: 
+Partenaire2: 
 
 ----
 
-Partenaire-3: 
+Partenaire3: 
 
 ----
 
-Partenaire-4: 
+Partenaire4: 
 
 ----
 
-Partenaire-5: 
+Partenaire5: 
 
 ----
 
-Partenaire-6: 
+Partenaire6: 
+
+----
+
+Value1: Valeur 1
+
+----
+
+Value2: Valeur 2
+
+----
+
+Value3: Valeur 3
+
+----
+
+Valuecontent1: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur.
+
+----
+
+Valuecontent2: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur.
+
+----
+
+Valuecontent3: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur.
+
+----
+
+Histoiretitle: Notre histoire est la vôtre
+
+----
+
+Histoirecontent: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+----
+
+Histoire-title: Titre
+
+----
+
+Histoire-content: 

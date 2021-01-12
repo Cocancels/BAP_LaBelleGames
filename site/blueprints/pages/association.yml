@@ -37,21 +37,66 @@ sections:
       textePartenaire:
         label: Texte Partenaire
         type: textarea
-      partenaire 1:
+      partenaire1:
         type: url
         width: 1/3
-      partenaire 2:
+      partenaire2:
         type: url
         width: 1/3
-      partenaire 3:
+      partenaire3:
         type: url
         width: 1/3
-      partenaire 4:
+      partenaire4:
         type: url
         width: 1/3
-      partenaire 5:
+      partenaire5:
         type: url
         width: 1/3
-      partenaire 6:
+      partenaire6:
         type: url
         width: 1/3
+
+  valeurs:
+    type: fields
+    fields:
+      value1:
+        label: Valeur 1
+        type: text
+        width: 1/3
+      value2:
+        label: Valeur 2
+        type: text
+        width: 1/3
+      value3:
+        label: Valeur 3
+        type: text
+        width: 1/3
+      valueContent1:
+        label: Contenu de la valeur 1
+        type: textarea
+        width: 1/3
+        size: medium
+        maxlength: 400
+      valueContent2:
+        label: Contenu de la valeur 2
+        type: textarea
+        width: 1/3
+        size: medium
+        maxlength: 400
+      valueContent3:
+        label: Contenu de la valeur 3
+        type: textarea
+        width: 1/3
+        size: medium
+        maxlength: 400
+
+  histoire:
+    type: fields
+    fields:
+      histoiretitle:
+        label: Titre de la section Notre histoire
+        type: text
+      histoirecontent:
+        label: Contenu de la section Notre histoire
+        type: textarea
+        size: medium
