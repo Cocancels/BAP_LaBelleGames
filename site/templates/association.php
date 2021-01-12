@@ -65,7 +65,9 @@
             <?php foreach ($page->drafts() as $item) : ?>
                 <div class="member-card">
                     <div id="member-image">
-                        <?= $item->image() ?>
+                        <a href="<?= $item->url() ?>">
+                            <?= $item->image() ?>
+                        </a>
                     </div>
                     <p class="prenom-membre"><?= $item->prenom() ?>
                         <?= $item->nom() ?></p>
@@ -85,30 +87,30 @@
         </div>
 
         <div class="partenaire-container">
-            <a href="<?= $page->partenaire_1() ?>">
+            <a href="<?= $page->partenaire1() ?>">
                 <div class="partenaire-card">
                 </div>
             </a>
-            <a href="<?= $page->partenaire_2() ?>">
+            <a href="<?= $page->partenaire2() ?>">
                 <div class="partenaire-card">
                 </div>
             </a>
-            <a href="<?= $page->partenaire_3() ?>">
+            <a href="<?= $page->partenaire3() ?>">
                 <div class="partenaire-card">
                 </div>
             </a>
         </div>
 
         <div class="partenaire-container">
-            <a href="<?= $page->partenaire_4() ?>">
+            <a href="<?= $page->partenaire4() ?>">
                 <div class="partenaire-card">
                 </div>
             </a>
-            <a href="<?= $page->partenaire_5() ?>">
+            <a href="<?= $page->partenaire5() ?>">
                 <div class="partenaire-card">
                 </div>
             </a>
-            <a href="<?= $page->partenaire_6() ?>">
+            <a href="<?= $page->partenaire6() ?>">
                 <div class="partenaire-card">
                 </div>
             </a>

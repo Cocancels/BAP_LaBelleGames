@@ -136,7 +136,7 @@
 }
 
 
-#member-image>img{
+#member-image>a>img{
     width: 250px;
     height: 250px;
     object-fit: cover;
@@ -310,7 +310,7 @@
     font-weight: bold ;
     padding: 20px;
     color: white;
-    background-color: palevioletred;
+    background-image: linear-gradient(253deg, #d57a83, #ebd99f);
     border: none;
     border-radius: 50px;
     text-transform: uppercase;

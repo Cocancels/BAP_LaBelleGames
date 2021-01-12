@@ -83,7 +83,7 @@
     font-family: 'Amatic SC', cursive;
     font-size: 50px;
     text-transform: uppercase;
-    margin-top: 150px;
+    margin-top: 250px;
     margin-bottom: 100px;
 
 }
@@ -101,6 +101,8 @@
     flex-direction: column;
     align-self: center;
     max-width: 700px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 #ateliers-content>h3, #events-content>h3{
@@ -173,6 +175,10 @@
     .jeu-card>img{
         max-width: 150px;
         margin-top: 50px;
+    }
+
+    #ateliers-content, #events-content{
+        margin-right: 0;
     }
 
     #ateliers-image, #events-image{

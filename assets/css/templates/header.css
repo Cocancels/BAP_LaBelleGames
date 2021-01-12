@@ -48,6 +48,15 @@ header ul li {
     margin-left: 54px;
 }
 
+header ul li a{
+    transition: 0.25s;
+}
+
+header ul li a:hover{
+    color: #D57A83;
+    transition: 0.25s;
+}
+
 @media screen and (max-width: 1025px) {
    nav{
        justify-content: center;

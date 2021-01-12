@@ -1,0 +1,16 @@
+sections:
+  projects:
+    type: fields
+    fields:
+      nom:
+        type: text
+      categorie:
+        type: text
+
+  photo:
+    type: files
+    max: 1
+    min: 1
+    layout: cards
+    image:
+      cover: true
