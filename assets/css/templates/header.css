@@ -47,3 +47,22 @@ header ul li {
     display: inline-block;
     margin-left: 54px;
 }
+
+@media screen and (max-width: 640px) {
+   nav{
+       justify-content: center;
+   } 
+
+   header ul:last-child{
+       margin-right: 0;
+   }
+
+   header>nav>ul{
+       margin-top: 50px;
+   }
+
+   nav>ul>li{
+       margin-left: 0;
+   }
+   
+}

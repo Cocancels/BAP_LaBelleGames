@@ -83,3 +83,32 @@ li{
 #social-networks p{
     margin-left: 5px;
 }
+
+@media screen and (max-width: 640px) {
+    #footer-container{
+        flex-direction: column;
+        padding-top: 60px;
+    }
+
+    #right-footer{
+        margin-top: 30px;
+        width: auto;
+    }
+
+    #right-footer input{
+        max-width: 100px;
+    }
+
+    #footer-half{
+        width: auto;
+        flex-direction: column;
+    }
+
+    #footer-half>div{
+        text-align: center;
+    }
+
+    #social-networks{
+        margin-top: 20px;
+    }
+}

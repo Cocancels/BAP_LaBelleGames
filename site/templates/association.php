@@ -63,7 +63,7 @@
 
         <div id="membres">
             <?php foreach ($page->drafts() as $item) : ?>
-                <div id="member-card">
+                <div class="member-card">
                     <div id="member-image">
                         <?= $item->image() ?>
                     </div>

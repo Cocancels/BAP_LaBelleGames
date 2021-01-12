@@ -121,7 +121,7 @@
 }
 
 
-#member-card{
+.member-card{
     background-color: #D57A83;
     padding: 10px;
     border-radius: 10px;
@@ -131,7 +131,7 @@
 
 }
 
-#member-card:not(:first-child){
+.member-card:not(:first-child){
     margin-left: 50px;
 }
 
@@ -315,3 +315,177 @@
     border-radius: 50px;
     text-transform: uppercase;
 }
+
+
+@media screen and (max-width: 640px) {
+    header{
+        flex-direction: column;
+
+    }
+
+    #header-image{
+        margin: auto;
+    }
+
+    header ul:last-child(){
+        margin-right: 0px;
+    }
+
+    nav>ul{
+        flex-direction: column;
+    }
+
+    #accroche{
+        width: 100%;
+    }
+
+    #believe{
+        padding-top: 100px;
+        flex-direction: column;
+    }
+
+    .accroche2{
+        text-align: center;
+        width: auto;
+        padding-right: 5%;
+        padding-left: 5%;
+
+    }
+
+    #believe>ul{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin: auto;
+    }
+
+    #accroche h1{
+        font-size: 50px;
+    }
+
+    #top-page{
+        background-size: 100% ;
+        background-repeat: no-repeat;
+        background-position-y:bottom;
+    }
+
+    #equipe{
+        background-size: 100% ;
+        background-repeat: no-repeat;
+        background-position-y:top;
+    }
+
+    #equipe>h2{
+        padding-top: 200px;
+    }
+
+    #equipe-content{
+        flex-direction: column;
+        text-align: center;
+        margin-right: 5%;
+        margin-left: 5%;
+
+    }
+
+    #equipe-text{
+        width: auto;
+    }
+
+    #equipe-image{
+        margin-top: 50px;
+        width: auto;
+    }
+
+    #equipe-image>img{
+        max-width: 250px;
+    }
+
+    #membres{
+        flex-direction: column;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    #section-member{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .member-card{
+        margin-right: 0;
+    }
+
+    .member-card:not(:first-child) {
+        margin-left: 0;
+    }
+
+    #member-image>img{
+        width: 100%;
+    }
+
+    .partenaire-container{
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .partenaire-card{
+        width: auto;
+    }
+
+    #projects{
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        background-size: 100% ;
+    }
+
+    #philosophie-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #philosophie-value{
+        width: auto;
+        text-align: center;
+    }
+
+    .valeur>p{
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+
+    #img-philosophie{
+        width: auto;
+    }
+
+    .partenaire-container a{
+        margin-top: 30px;
+    }
+
+    #img-philosophie>img{
+        max-width: 250px;
+    }
+
+    #histoire-image>img{
+        max-width: 250px;
+    }
+
+    #histoire-container{
+        margin-right: 0;
+        margin-left: 0;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #histoire-content{
+        margin-bottom: 50px;
+    }
+
+    #discover{
+        text-align: center;
+    }
+
+    #discover-button{
+        text-align: center;
+    }
+  }
