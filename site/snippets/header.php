@@ -1,6 +1,8 @@
 <header>
-    <div id="header-image">
-    </div>
+    <a href="/home">
+        <div id="header-image">
+        </div>
+    </a>
 
     <nav>
         <ul>
