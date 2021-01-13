@@ -6,6 +6,8 @@
 #top-page{
     text-align: center;
     background-image: url("../../images/Exclusion\ 9_2.png");
+    background-size: cover;
+    background-position-y: bottom;
     height: 632px;
 }
 
@@ -65,7 +67,7 @@
 #equipe{
     background-image: url("../../images/divider_2.png");
     background-position: top;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -121,7 +123,7 @@
 }
 
 
-#member-card{
+.member-card{
     background-color: #D57A83;
     padding: 10px;
     border-radius: 10px;
@@ -131,12 +133,12 @@
 
 }
 
-#member-card:not(:first-child){
+.member-card:not(:first-child){
     margin-left: 50px;
 }
 
 
-#member-image>img{
+#member-image>a>img{
     width: 250px;
     height: 250px;
     object-fit: cover;
@@ -162,10 +164,12 @@
     background-position: bottom;
     background-repeat: no-repeat;
     padding-bottom: 500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #main{
-    max-width: 100%;
+    width: 100%;
 }
 
 #partenaires{
@@ -247,6 +251,7 @@
     background-image: url("../../images/Exclusion\ 8.png");
     background-position: top;
     background-repeat: no-repeat;
+    background-size: 100%;
     margin-top: -1px;
 }
 
@@ -303,15 +308,173 @@
 
 }
 
-#discover-button>button{
+#discover-button>a{
     font-size: 17.5px;
     margin-top: 20px;
     font-family: 'Barlow';
     font-weight: bold ;
     padding: 20px;
     color: white;
-    background-color: palevioletred;
+    background-image: linear-gradient(253deg, #d57a83, #ebd99f);
     border: none;
     border-radius: 50px;
     text-transform: uppercase;
 }
+
+
+@media screen and (max-width: 640px) {
+    #accroche{
+        width: 100%;
+    }
+
+    #believe{
+        padding-top: 100px;
+        flex-direction: column;
+    }
+
+    .accroche2{
+        text-align: center;
+        width: auto;
+        padding-right: 5%;
+        padding-left: 5%;
+
+    }
+
+    #believe>ul{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin: auto;
+    }
+
+    #accroche h1{
+        font-size: 50px;
+    }
+
+    #top-page{
+        background-size: 100% ;
+        background-repeat: no-repeat;
+        background-position-y:bottom;
+    }
+
+    #equipe{
+        background-size: 100% ;
+        background-repeat: no-repeat;
+        background-position-y:top;
+    }
+
+    #equipe>h2{
+        padding-top: 200px;
+    }
+
+    #equipe-content{
+        flex-direction: column;
+        text-align: center;
+        margin-right: 5%;
+        margin-left: 5%;
+
+    }
+
+    #equipe-text{
+        width: auto;
+    }
+
+    #equipe-image{
+        margin-top: 50px;
+        width: auto;
+    }
+
+    #equipe-image>img{
+        max-width: 250px;
+    }
+
+    #membres{
+        flex-direction: column;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    #section-member{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .member-card{
+        margin-right: 0;
+    }
+
+    .member-card:not(:first-child) {
+        margin-left: 0;
+    }
+
+    #member-image>img{
+        width: 100%;
+    }
+
+    .partenaire-container{
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .partenaire-card{
+        width: auto;
+    }
+
+    #projects{
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        background-size: 100% ;
+    }
+
+    #philosophie-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #philosophie-value{
+        width: auto;
+        text-align: center;
+    }
+
+    .valeur>p{
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+
+    #img-philosophie{
+        width: auto;
+    }
+
+    .partenaire-container a{
+        margin-top: 30px;
+    }
+
+    #img-philosophie>img{
+        max-width: 250px;
+    }
+
+    #histoire-image>img{
+        max-width: 250px;
+    }
+
+    #histoire-container{
+        margin-right: 0;
+        margin-left: 0;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #histoire-content{
+        margin-bottom: 50px;
+    }
+
+    #discover{
+        text-align: center;
+    }
+
+    #discover-button{
+        text-align: center;
+        margin-top: 50px;
+    }
+  }

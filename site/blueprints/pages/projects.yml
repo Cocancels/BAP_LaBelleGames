@@ -1,0 +1,6 @@
+sections:
+  projects:
+    type: pages
+    layout: cards
+    image:
+      cover: true

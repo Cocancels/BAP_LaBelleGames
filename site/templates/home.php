@@ -50,6 +50,7 @@
                     <?php endforeach ?>
             </div>
 
+<<<<<<< HEAD
         </div>
 
     </div>
@@ -105,6 +106,8 @@
                     <?php endforeach ?>
             
         </div>
+=======
+>>>>>>> fcef2f64a67d6181058f2bb956b85ac51e83e129
 
     <?php snippet('footer') ?>
 

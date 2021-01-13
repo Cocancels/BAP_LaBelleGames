@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#services{
+    background-image: url('../../images/Exclusion\ 9_2.png');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position-y:bottom;
+    margin-bottom: -1px;
+}
+
+#services>h1{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 75px;
+    font-family: 'Amatic SC', cursive;
+    padding-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#services>h3{
+    font-family: 'Barlow';
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 200px;
+}
+
+#vertueux{
+    background-color: #0F1426;
+}
+
+#vertueux>h2{
+    text-align: center;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-top: 75px;
+    margin-bottom: 50px;
+}
+
+#vertueux>p{
+    font-family: 'Barlow';
+    text-align: center;
+    font-size: 17.5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: white;
+    padding-bottom: 100px;
+}
+
+#jeux-liste{
+    background-image: url('../../images/Groupe\ 51.png');
+    margin-top: -1px;
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position-y:top;
+}
+
+#jeux-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.jeu-card{
+    text-align: center;
+    max-width: 350px;
+    font-family: 'Barlow';
+}
+
+.jeu-card>h3{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#ateliers>h2, #events>h2 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 250px;
+    margin-bottom: 100px;
+
+}
+
+#ateliers-container, #events-container{
+    display: flex;
+    font-family: 'Barlow';
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+}
+
+#ateliers-content, #events-content{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 700px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#ateliers-content>h3, #events-content>h3{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
+#ateliers-content>a, #events-content>a{
+    font-size: 17.5px;
+    font-weight: bold;
+}
+
+#contact{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 150px;
+}
+
+#contact>p{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+#contact-button{
+    text-align: right;
+}
+
+#contact-button>button{
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    background-color: palevioletred;
+    font-family: 'Barlow';
+    border: none;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 1025px) {
+    #jeux-container, #ateliers-container, #events-container{
+        flex-direction: column;
+    }
+
+    img{
+        max-width: 250px;
+    }
+
+    #services>h1{
+        font-size: 50px;
+        padding-top: 75px;
+    }
+
+    #services>h3{
+        margin-right: 5%;
+        margin-left: 5%;
+        font-size: 20px;
+    }
+
+    .jeu-card{
+        max-width: none;
+        margin-right: 5%;
+        margin-left: 5%;
+
+    }
+
+    .jeu-card>img{
+        max-width: 150px;
+        margin-top: 50px;
+    }
+
+    #ateliers-content, #events-content{
+        margin-right: 0;
+    }
+
+    #ateliers-image, #events-image{
+        text-align: center;
+    }
+
+    #ateliers-image{
+        margin-top: 75px;
+    }
+
+    #events-image{
+        margin-bottom: 75px;
+    }
+
+    #ateliers-content>h3, #events-content>h3{
+        text-align: center;
+    }
+
+    #ateliers-content>a, #events-content>a{
+        text-align: center;
+    }
+
+    #contact>p{
+        font-size: 35px;
+        text-align: center;
+        margin-top: 75px;
+        margin-bottom: 50px;
+    }
+
+    #contact-button{
+        text-align: center;
+        margin-top: 25px;
+    }
+}
