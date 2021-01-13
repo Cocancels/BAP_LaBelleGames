@@ -2,7 +2,11 @@ Title: Home
 
 ----
 
-Resume: Non
+Titreresume: Nous sommes Games for a Better World
+
+----
+
+Resume: Games for a Better World utilise le biais des jeux vidéos pour sensibiliser les joueurs aux problématiques sociétales. Chacun de ses projets est au service d’une cause, quelle soit environnementale, sociale, politique ou diplomatique.
 
 ----
 
@@ -19,6 +23,18 @@ Youtube:
 ----
 
 Twitch: 
+
+----
+
+Nospartenairestitle: Agissez avec nous pour un monde meilleur
+
+----
+
+Nospartenairescontent: Grâce à eux nous continuons à exister et à créer des jeux qui, nous croyons, engendrerons des comportements respectueux envers la société, l'environnement et les minorités.
+
+----
+
+Projects: 
 
 ----
 

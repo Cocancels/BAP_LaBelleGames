@@ -1,0 +1,18 @@
+sections:
+  content:
+    type: fields
+    fields:
+      nom:
+        type: text
+        width: 1/3
+      categorie:
+        type: text
+        width: 1/3
+  
+  photo: 
+    type: files
+    max: 1
+    min: 1
+    layout: cards
+    image:
+      cover: true

@@ -1,0 +1,8 @@
+sections:
+    photo:
+      type: files
+      max: 1
+      min: 1
+      layout: cards
+      image:
+          cover: true

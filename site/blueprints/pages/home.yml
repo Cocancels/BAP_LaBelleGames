@@ -5,9 +5,12 @@ columns:
       content:
         type: fields
         fields:
-          resume:
+          TitreResume:
             type: textarea
             size: small
+          Resume:
+            type: textarea
+            size: medium
       reseaux:
         type: fields
         fields:
@@ -27,11 +30,28 @@ columns:
             type: url
             width: 1/4
             placeholder: https://twitch.com
+      Partenaires:
+        type: fields
+        fields:
+          NosPartenairestitle:
+            label: Titre de la section Nos Partenaires
+            type: text
+          NosPartenairescontent:
+            label: Contenu de la section Nos Partenaires
+            type: textarea
+            size: medium
+      projects2:
+          type: pages
+        
+          
+
 
   - width: 1/2
     sections:
       projects:
         type: pages
+      
+    
+      
 
-      articles:
-        type: pages
+      
