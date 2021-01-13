@@ -17,9 +17,19 @@
 </head>
 
 
+<style>
+    #project-look {
+        background-image: url(<?= $page->images()->nth(1)->url() ?>);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+</style>
+
 <body>
 
     <?php snippet('header') ?>
+
 
     <section id="project-look">
         <div id="project-div">

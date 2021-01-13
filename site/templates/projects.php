@@ -75,14 +75,14 @@
             <?php endforeach ?>
         </div>
         <div id="projet-bouton">
-            <button>Voir plus</button>
+            <button id="seemore-button">Voir plus</button>
         </div>
     </section>
 
     <div id="soutien">
         <h2>Vous aimez nos projets et vous souhaitiez les soutenir ? Alors devenons partenaires pour développer ensemble les jeux vidéo qui participent à rendre le monde meilleur.</h2>
         <div id="soutien-bouton">
-            <a href="/association">Voir les partenariats</a>
+            <a href="/partenariats">Voir les partenariats</a>
         </div>
     </div>
 
@@ -90,3 +90,5 @@
 </body>
 
 </html>
+
+<?= js('assets/js/project.js') ?>

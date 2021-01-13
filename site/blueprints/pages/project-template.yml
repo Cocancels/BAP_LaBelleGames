@@ -30,10 +30,13 @@ sections:
         label: Lien Steam
         type: url
 
-  photo:
+  images:
     type: files
-    max: 1
-    min: 1
     layout: cards
-    image:
-      cover: true
+    max: 2
+    min: 2
+    files:
+      image:
+        cover: true
+      background:
+        cover: true

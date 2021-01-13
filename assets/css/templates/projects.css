@@ -7,6 +7,8 @@
     margin-top: 100px;
     height: 100vh;
     background-image: url('../../images/fusion.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -37,8 +39,9 @@
 
 #favorites{
     background-image: url("../../images/Exclusion\ 8.png");
-    background-position: top;
+    background-size: 101%;
     background-repeat: no-repeat;
+    background-position: top;
     margin-top: -1px;
 }
 
@@ -95,7 +98,7 @@
 #portfolio>h2{
     font-family: 'Amatic SC';
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 100px;
 }
 
@@ -103,6 +106,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    max-height: 600px;
+    overflow-y: hidden;
 
 }
 
@@ -150,6 +155,15 @@
     text-align: center;
 }
 
+#projet-bouton>button:hover{
+    cursor: pointer
+}
+
+#projet-bouton>button:focus{
+    outline: none;
+border: none;
+}
+
 #projet-bouton>button{
     color: white;
     text-transform: uppercase;
@@ -194,8 +208,7 @@
 
 @media screen and (max-width: 640px) {
     #top-image {
-        background-position: top;
-        background-repeat: no-repeat;
+        background-color: #0F1426
     }
 
     #top-image-content>h1{

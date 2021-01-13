@@ -6,6 +6,8 @@
 #top-page{
     text-align: center;
     background-image: url("../../images/Exclusion\ 9_2.png");
+    background-size: cover;
+    background-position-y: bottom;
     height: 632px;
 }
 
@@ -65,7 +67,7 @@
 #equipe{
     background-image: url("../../images/divider_2.png");
     background-position: top;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -162,10 +164,12 @@
     background-position: bottom;
     background-repeat: no-repeat;
     padding-bottom: 500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #main{
-    max-width: 100%;
+    width: 100%;
 }
 
 #partenaires{
@@ -247,6 +251,7 @@
     background-image: url("../../images/Exclusion\ 8.png");
     background-position: top;
     background-repeat: no-repeat;
+    background-size: 100%;
     margin-top: -1px;
 }
 
@@ -470,5 +475,6 @@
 
     #discover-button{
         text-align: center;
+        margin-top: 50px;
     }
   }
