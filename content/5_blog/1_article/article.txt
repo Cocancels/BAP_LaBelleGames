@@ -1,0 +1,9 @@
+Title: Article 2
+
+----
+
+Intro: Introduction 2
+
+----
+
+Text: Bla bla bla chat lorem ipsum
