@@ -206,7 +206,7 @@ border: none;
 }
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1025px) {
     #top-image {
         background-color: #0F1426
     }
@@ -290,4 +290,5 @@ border: none;
     #soutien-bouton{
         text-align: center;
     }
+
 }

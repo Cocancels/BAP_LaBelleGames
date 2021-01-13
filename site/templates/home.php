@@ -22,20 +22,20 @@
     <?php snippet('header') ?>
     <div class="firstBlock">
         <div id="img_firstBlock">
-        <h2><?= $page->TitreResume() ?></h2>
-        <p><?= $page->Resume() ?></p>
-        <div id="EnSavoirPlus-button3">
+            <h2><?= $page->TitreResume() ?></h2>
+            <p><?= $page->Resume() ?></p>
+            <div id="EnSavoirPlus-button3">
                 <button>En savoir Plus</button>
             </div>
         </div>
     </div>
-    <section class ="btw1_2">
-    <p>Nos projets</p>
+    <section class="btw1_2">
+        <p>Nos projets</p>
     </section>
     <div class="secondBlock">
         <div id="img_secondBlock">
             <div id="nos_projets">
-                <?php foreach ($page->drafts() as $item) : ?>
+                <?php foreach (page("projects")->drafts() as $item) : ?>
                     <div id="carte-projet">
                         <div id="image-projet">
                             <?= $item->image() ?>
@@ -43,21 +43,20 @@
                         <p class="project-name"><?= $item->nom() ?></p>
                         <p class="category"><?= $item->categorie() ?></p>
                         <div id="decouvrir">
-                        <p>Découvrir</p>
-                        
+                            <a href="<?= $item->url() ?>">Découvrir</a>
+
                         </div>
                     </div>
-                    <?php endforeach ?>
+                <?php endforeach ?>
             </div>
 
-<<<<<<< HEAD
         </div>
 
     </div>
-    
+
     <div class="thirdBlock">
         <article id="titre_thirdBlock">
-        <p> Nos services</p>
+            <p> Nos services</p>
         </article>
         <div id="Nos_services">
             <article class="Creation">
@@ -74,14 +73,14 @@
             </article>
         </div>
         <div id="placement_btn">
-        <div id="EnSavoirPlus-button">
-                <button>En savoir Plus</button>
+            <div id="EnSavoirPlus-button">
+                <a href="/services">En savoir Plus</a>
             </div>
         </div>
     </div>
     <div class="fourth_block">
 
-    <h2 id="Titre_Np">Nos Partenaires</h2>
+        <h2 id="Titre_Np">Nos Partenaires</h2>
         <div id="Partenaire-container">
             <div id="partenaire-image">
                 <img src="<?= url('assets/images/img_300x300.png') ?>">
@@ -90,24 +89,21 @@
                 <h2><?= $page->NosPartenairestitle() ?></h2>
                 <p><?= $page->NosPartenairescontent() ?></p>
                 <div id="EnSavoirPlus-button2">
-                <button>En savoir Plus</button>
+                    <button>En savoir Plus</button>
+                </div>
             </div>
-            </div>
         </div>
+    </div>
+
+    <div id="fifth-block">
+        <h2>Nos dernières nouvelles</h2>
+        <div id="bouton-nouvelles">
+            <a href="/blog">Dernières nouvelles</a>
         </div>
-        <div id="photo_partenaires">
-        <?php foreach ($page->drafts() as $item) : ?>
-                    
-                        <div id="image-partenaires">
-                            <?= $item->image() ?>
-                        </div>
-                        
-                    </div>
-                    <?php endforeach ?>
-            
-        </div>
-=======
->>>>>>> fcef2f64a67d6181058f2bb956b85ac51e83e129
+    </div>
+
+
+    </div>
 
     <?php snippet('footer') ?>
 

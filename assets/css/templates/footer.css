@@ -74,10 +74,6 @@ li {
     margin: 15px;
 }
 
-<<<<<<< HEAD
-#social-networks p {
-    margin-left: 65px;
-=======
 #social-networks p{
     margin-left: 5px;
 }
@@ -113,5 +109,5 @@ li {
     #social-networks{
         margin-top: 20px;
     }
->>>>>>> fcef2f64a67d6181058f2bb956b85ac51e83e129
+
 }

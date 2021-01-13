@@ -22,7 +22,6 @@
         background-image: url(<?= $page->images()->nth(1)->url() ?>);
         background-repeat: no-repeat;
         background-size: cover;
-
     }
 </style>
 
