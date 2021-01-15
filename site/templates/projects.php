@@ -64,9 +64,11 @@
             <?php foreach ($page->drafts() as $item) : ?>
                 <div class="projet-card">
                     <div class="projet-image">
-                        <a href="<?= $item->url() ?>">
-                            <?= $item->image() ?>
-                        </a>
+                        <?php if ($right = $item->right()->toFile()) : ?>
+                            <a href="<?= $item->url() ?>">
+                                <img src="<?= $right->url() ?>">
+                            </a>
+                        <?php endif ?>
                     </div>
                     <p class="projet-name">
                         <?= $item->nom() ?></p>

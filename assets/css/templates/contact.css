@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#contact{
+    padding-bottom: 100px;
+}
+
+#contact>h1{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    font-size: 70px;
+    font-family: 'Amatic SC';
+    text-align: center;
+}
+
+#contact-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+
+}
+
+#contact-content{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-content>input{
+    text-align: left;
+    margin: 20px 0px;
+    background-color: #EBD99F;
+    padding: 10px 100px 10px 15px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Barlow';
+
+
+}
+
+#contact-content>input:focus{
+    border: none;
+    outline-style: none;
+}
+
+#contact-message{
+    text-align: center;
+    width: 30%;
+}
+
+#contact-message>textarea{
+    height: 100%;
+    resize: none;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Barlow';
+    padding: 15px;
+    background-color: #EBD99F;
+    border-radius: 15px;
+    border: none;
+    
+}
+
+#contact-message>textarea:focus{
+    outline-style: none;
+}
+
+#contact-networks>p{
+    font-size: 20px;
+    font-family: 'Barlow';
+}
+
+#contact-logos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#button-submit{
+    text-align: center;
+}
+
+#button-submit>button{
+    padding: 20px 40px;
+    font-family: 'Barlow';
+    font-size: 25px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    color: white;
+    background-image: linear-gradient(253deg, #d57a83, #ebd99f);
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+#button-submit>button:focus{
+    outline-style: none;
+    border: none;
+}
+
+#button-submit>button:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1025px) {
+    #contact-container{
+        flex-direction: column;
+    }
+
+    #contact-message{
+        width: auto;
+    }
+
+    #contact-message>textarea{
+        width: auto;
+        margin-right: 5%;
+        margin-left: 5%;
+        height: 200px;
+        margin-top: 50px;
+    }
+
+    #contact-content{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    #button-submit{
+        margin-bottom: 50px;
+    }
+
+    #contact-networks{
+        text-align: center;
+        margin-right: 5%;
+        margin-left: 5%;
+
+    }
+}

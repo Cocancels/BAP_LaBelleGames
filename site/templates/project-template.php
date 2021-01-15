@@ -17,18 +17,20 @@
 </head>
 
 
-<style>
-    #project-look {
-        background-image: url(<?= $page->images()->nth(1)->url() ?>);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-</style>
+
+<?php if ($background = $page->background()->toFile()) : ?>
+    <style>
+        #project-look {
+            background-image: url(<?= $background->url() ?>);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+<?php endif ?>
 
 <body>
 
     <?php snippet('header') ?>
-
 
     <section id="project-look">
         <div id="project-div">
@@ -58,7 +60,7 @@
             <div id="caract-content">
                 <div class="infos genre">
                     <h3>Genre</h3>
-                    <p><?= $page->categorie() ?>, <?= $page->categorie2() ?></p>
+                    <p><?= $page->categorie() ?> <?= $page->categorie2() ?></p>
                 </div>
 
                 <hr>
@@ -91,9 +93,11 @@
                 </div>
             </div>
 
-            <div id="caract-image">
-                <?= $page->image() ?>
-            </div>
+
+            <?php if ($right = $page->right()->toFile()) : ?>
+                <div id="caract-image"><img src="<?= $right->url() ?>"></div>
+            <?php endif ?>
+
         </div>
     </section>
 

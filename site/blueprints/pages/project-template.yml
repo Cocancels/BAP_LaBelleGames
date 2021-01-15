@@ -31,12 +31,13 @@ sections:
         type: url
 
   images:
-    type: files
-    layout: cards
-    max: 2
-    min: 2
-    files:
-      image:
-        cover: true
+    type: fields
+    fields:
       background:
-        cover: true
+        label: Background
+        layout: cards
+        type: files
+      right:
+        label: Image
+        layout: cards
+        type: files

@@ -4,12 +4,25 @@
 }
 
 #header-image{
-    width: 64px;
-    height: 64px;
-    background: grey;
+
     margin-left: 50px;
     margin-top: 10px;
 }
+
+#header-image>img{
+    width: 150px;
+    height: 150px;
+}
+
+#logo-site{
+    width: 150px;
+    height: 150px;
+}
+
+#burger-icon{
+    display: none;
+}
+
 
 header{
     display: flex;
@@ -17,7 +30,6 @@ header{
     font-family: 'Barlow', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-
 }
 
 a{
@@ -60,15 +72,16 @@ header ul li a:hover{
 @media screen and (max-width: 1025px) {
    nav{
        justify-content: center;
+
    } 
 
     header{
         flex-direction: column;
-
     }
 
     #header-image{
         margin: auto;
+        text-align: center;
     }
 
     header ul:last-child{
@@ -86,5 +99,15 @@ header ul li a:hover{
    nav>ul>li{
        margin-left: 0;
    }
+
+   #header-image>img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    }  
+
+    #logo-site{
+        display: none;
+    }  
    
 }

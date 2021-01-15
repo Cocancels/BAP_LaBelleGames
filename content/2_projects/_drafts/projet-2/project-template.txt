@@ -2,8 +2,48 @@ Title: Projet 2
 
 ----
 
-Nom: Projet 2
+Nom: Eugenics
 
 ----
 
-Categorie: Categorie 2
+Categorie: Indépendant
+
+----
+
+Categorie2: 
+
+----
+
+Video: https://www.youtube.com/embed/ooBk0zDWwvg
+
+----
+
+Synopsis: Le futur. L'humanité cherche toujours son équilibre. De courageux citoyens acceptent de consacrer leur vie à cet objectif. Isolés dans la colonie d'UT-OP-I4, eux et leur progéniture tenteront de vivre de façon autonome et en harmonie. Pourtant, ils ignorent que chacun de leurs mouvements sera scruté et analysé...... Et qu'après chaque naissance, le génome de leurs descendants sera modifié pour créer l'individu parfait. Pour une société parfaite. Dans un monde parfait. Vous êtes le démiurge de l'UT-OP-I4, un serviteur de l'humanité. Déchiffrez les secrets de notre génétique et montrez-nous le chemin.
+
+----
+
+Plateformes: PC
+
+----
+
+Date: 2019-06-18
+
+----
+
+Editeur: Mi-Clos Studio, La Belle Games
+
+----
+
+Steam: https://store.steampowered.com/app/935610/Eugenics/?l=french
+
+----
+
+Background:
+
+- eugenics.jpg
+
+----
+
+Right:
+
+- logo.jpg
