@@ -5,7 +5,7 @@ let opened = false;
 
 burger.onclick = function(){
       if(opened == false){
-        nav.style.display = "block"
+        nav.style.display = "flex"
         opened = true;
     }
 
@@ -16,6 +16,12 @@ burger.onclick = function(){
     }
 }
 
-if(window.innerWidth >=1024){
-    console.log("oui")
+
+
+function reportWindowSize(){
+    if(window.innerWidth >=1024){
+        nav.style.display = "flex"
+    }
 }
+
+window.onresize = reportWindowSize

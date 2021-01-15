@@ -23,6 +23,10 @@
     display: none;
 }
 
+#burger-icon:hover{
+    cursor: pointer;
+}
+
 
 header{
     display: flex;

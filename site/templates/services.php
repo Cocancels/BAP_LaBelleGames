@@ -102,7 +102,7 @@
     <section id="contact">
         <p>Nos services vous intéressent et vous aimeriez organiser un évènement ou un atelier avec nous ? Alors discutons ensemble pour voir si nous pouvons concrétiser votre projet.</p>
         <div id="contact-button">
-            <button>Nous contacter</button>
+            <a href="/contact">Nous contacter</a>
         </div>
     </section>
 

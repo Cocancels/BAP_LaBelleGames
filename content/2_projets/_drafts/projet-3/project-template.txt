@@ -1,0 +1,51 @@
+Title: Projet 3
+
+----
+
+Nom: The Wanderer
+
+----
+
+Categorie: Narration
+
+----
+
+Categorie2: Nature
+
+----
+
+Video: https://www.youtube.com/embed/_1XJNzRjV94
+
+----
+
+Synopsis: Depending on the player's actions, the creature evolves differently, which impacts not only on the story, but also on the gameplay. The emotional state of the creature is at the center of the game experience: facing a testing situation, its state may vary from anger to madness, through sadness. These emotional states dynamically vary the course of the game, transforming the visuals, sounds and gameplay.
+
+----
+
+Plateformes: PC / Mac / Mobile devices/ Switch
+
+----
+
+Date: 2019-12-01
+
+----
+
+Editeur: Arte
+
+----
+
+Steam: https://store.steampowered.com/app/966670/The_Wanderer_Frankensteins_Creature/
+
+----
+
+Background:
+
+- >
+  the-wanderer-frankensteins-creature-switch-hero.jpeg
+
+----
+
+Right:
+
+- >
+  test-the-wanderer-frankenstein-s-creature-jsug.jpg
