@@ -6,7 +6,7 @@
 #img_firstBlock {
     height: 1200px;
     background-image: url("../../images/home_divider1.png");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position-y: bottom;
     margin-bottom: -1px;
@@ -72,7 +72,6 @@
 }
 
 #img_secondBlock {
-
     background-image: url("../../images/divider_2.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -87,7 +86,6 @@
     padding-top: 65.6px;
     margin-left: 5%;
     margin-right: 5%;
-
 }
 
 #carte-projet {
@@ -118,7 +116,6 @@
     font-weight: bold;
     color: #0f1426;
     padding-left: 50px;
-
 }
 
 .category {
@@ -293,7 +290,7 @@
     max-height: 126px;
 }
 
-#fifth-block{
+#fifth-block {
     margin-left: -1px;
     background-image: url(../../images/divider_2.png);
     background-size: cover;
@@ -301,22 +298,20 @@
     background-position-y: top;
 }
 
-#fifth-block>h2{
+#fifth-block>h2 {
     text-align: center;
     padding-top: 500px;
     font-family: 'Amatic SC';
     font-size: 50px;
 }
 
-#bouton-nouvelles{
+#bouton-nouvelles {
     text-align: center;
     margin-top: 75px;
     margin-bottom: 75px;
-
-
 }
 
-#bouton-nouvelles>a{
+#bouton-nouvelles>a {
     padding: 14px 40px;
     background-image: linear-gradient(253deg, #d57a83, #ebd99f);
     font-size: 20px;
@@ -325,114 +320,95 @@
     font-weight: bold;
     border-radius: 50px;
     text-transform: uppercase;
-
 }
 
 @media screen and (max-width: 1025px) {
-     .firstBlock h2,.firstBlock p, .btw1_2,.firstBlock #EnSavoirPlus-button3, .Creation p{
+    .firstBlock h2,
+    .firstBlock p,
+    .btw1_2,
+    .firstBlock #EnSavoirPlus-button3,
+    .Creation p {
         width: auto;
         height: auto;
     }
-
-    #img_firstBlock{
+    #img_firstBlock {
         background-size: 100%;
     }
-
-    #Nos_services, #Partenaire-container{
+    #Nos_services,
+    #Partenaire-container {
         flex-direction: column;
     }
-
-    .fourth_block{
+    .fourth_block {
         background-size: 100%;
         margin-bottom: -1px;
     }
-
-    #partenaire-image>img{
+    #partenaire-image>img {
         max-width: 300px;
         height: auto;
     }
-
-    #img_firstBlock>h2{
+    #img_firstBlock>h2 {
         margin-left: 5%;
         margin-right: 5%;
         text-align: center;
         font-size: 75px;
         margin-bottom: 100px;
     }
-
-    #img_firstBlock>p{
+    #img_firstBlock>p {
         margin-left: 0;
         text-align: center;
         margin-left: 5%;
         margin-right: 5%;
     }
-
-    .firstBlock #EnSavoirPlus-button3{
+    .firstBlock #EnSavoirPlus-button3 {
         display: block;
         text-align: center;
         margin-left: 0;
     }
-
-    .btw1_2 p{
+    .btw1_2 p {
         padding: 0;
         padding-top: 100px;
     }
-
-    #image-projet>img{
+    #image-projet>img {
         width: 300px;
         height: auto
     }
-
-    .project-name{
+    .project-name {
         width: auto;
     }
-
-    #img_secondBlock{
+    #img_secondBlock {
         background-size: 100%;
         height: 500px;
     }
-
-    .Creation>img{
+    .Creation>img {
         max-width: 100px;
     }
-
-    .Creation>p{
+    .Creation>p {
         font-size: 20px;
         margin: 50px 0px;
     }
-
-    #partenaire-image{
+    #partenaire-image {
         text-align: center;
     }
-
-    #Partenaire-content{
+    #Partenaire-content {
         padding-left: 0;
         margin-top: 50px;
         margin-bottom: 50px;
         font-size: 30px;
     }
-
-    #Partenaire-content>h2{
+    #Partenaire-content>h2 {
         font-size: 20px;
     }
-
-    #EnSavoirPlus-button2{
+    #EnSavoirPlus-button2 {
         text-align: center;
     }
-
-    .fourth_block{
+    .fourth_block {
         background-image: url(../../images/Exclusion\ 9@2x.png);
     }
-
-    #fifth-block{
+    #fifth-block {
         margin-top: -2px;
         background-size: 100%;
     }
-
-    #fifth-block>h2{
+    #fifth-block>h2 {
         padding-top: 250px;
     }
-
-
-
 }

@@ -74,7 +74,7 @@
         </div>
         <div id="placement_btn">
             <div id="EnSavoirPlus-button">
-                <a href="/services">En savoir Plus</a>
+                <a href="services">En savoir Plus</a>
             </div>
         </div>
     </div>
