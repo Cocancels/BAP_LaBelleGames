@@ -35,7 +35,7 @@
     <div class="secondBlock">
         <div id="img_secondBlock">
             <div id="nos_projets">
-                <?php foreach (page("projects")->drafts() as $item) : ?>
+                <?php foreach (page("projets")->drafts() as $item) : ?>
                     <div id="carte-projet">
                         <div id="image-projet">
                             <?= $item->image() ?>

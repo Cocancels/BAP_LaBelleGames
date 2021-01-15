@@ -1,9 +1,0 @@
-Title: projet 1
-
-----
-
-Nom: Nom du projet
-
-----
-
-Categorie: CATEGORIE
