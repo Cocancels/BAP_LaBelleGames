@@ -1,4 +1,18 @@
+title: Projets
+
 sections:
+  texts:
+    type: fields
+    fields:
+      projet1:
+        type: textarea
+        size: medium
+        width: 1/2
+      projet2:
+        type: textarea
+        size: medium
+        width: 1/2
+
   projects:
     type: pages
     layout: cards

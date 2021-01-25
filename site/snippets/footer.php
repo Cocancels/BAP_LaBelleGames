@@ -9,7 +9,7 @@
                     </li>
 
                     <li>
-                        <a href="/projects">Projets</a>
+                        <a href="/projets">Projets</a>
                     </li>
 
                     <li>

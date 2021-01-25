@@ -33,26 +33,30 @@
 
         <div id="project-container">
             <div id="project-content">
-                <p>Les monstres ne le sont qu'à nos yeux. Levons le voile de l'inconnu pour découvrir les merveilles qui s'y cachent</p>
+                <p><?= $page->projet1() ?></p>
                 <div id="project-link">
-                    <a href="/projects/projet-2">Voir le projet</a>
+                    <a href="/projets/projet-1">Voir le projet</a>
                 </div>
             </div>
 
             <div id="project-image">
-                <img src="<?= url('assets/images/project1.png') ?>">
+                <?php if ($right = $page->drafts()->nth(0)->right()->toFile()) : ?>
+                    <img src="<?= $right->url() ?>">
+                <?php endif ?>
             </div>
         </div>
         <hr id="hr">
         <div id="project2-container">
             <div id="project2-image">
-                <img src="<?= url('assets/images/project2.png') ?>">
+                <?php if ($right = $page->drafts()->nth(1)->right()->toFile()) : ?>
+                    <img src="<?= $right->url() ?>">
+                <?php endif ?>
             </div>
 
             <div id="project2-content">
-                <p>Urbanistes en herbes, à vos consoles pour créer les villes de demain !</p>
+                <p><?= $page->projet2() ?></p>
                 <div id="project2-link">
-                    <a href="/projects/projet-1">Voir le projet</a>
+                    <a href="/projets/projet-2">Voir le projet</a>
                 </div>
             </div>
         </div>
