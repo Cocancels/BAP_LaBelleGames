@@ -37,7 +37,8 @@
         profit d'un monde meilleur.</p>
     </div>
   </section>
-  <section id="rejoignez-nous">
+  <section id="rejoignez">
+    <div class="nous">
     <h2>Rejoignez-nous, on vous attend :)</h2>
 
     <div id="agissez-container">
@@ -45,17 +46,17 @@
         <h3>Agissez, devenez bénévole !</h3>
         <h4>Exemples de missions</h4>
         <p>
-          <hr>Participer à la production d'un jeu : </hr>que vous soyez professionnel ou amateur, seul votre passion
+          <strong>Participer à la production d'un jeu : </strong>que vous soyez professionnel ou amateur, seul votre passion
           compte. Intégrez nos équipes techniques pour nous aider à créer nos jeux. Partagez vos connaissance et
           apprenez des autres, et vous vous formerez tout en vous amusant.</p>
         <br>
         <p>
-          <hr>Participer à la production d'un jeu :</hr> que vous soyez professionnel ou amateur, seul votre passion
+          <strong>Participer à la production d'un jeu :</strong> que vous soyez professionnel ou amateur, seul votre passion
           compte. Intégrez nos équipes techniques pour nous aider à créer nos jeux. Partagez vos connaissance et
           apprenez des autres, et vous vous formerez tout en vous amusant.</p>
         <br>
         <p>
-          <hr>Aider à l'organisation des évènements :</hr> vous êtes organisé et rigoureux, mais surtout vous aimer le
+          <strong>Aider à l'organisation des évènements :</strong> vous êtes organisé et rigoureux, mais surtout vous aimer le
           contact humain et partager votre passion ? Alors venez nous aider sur des tâches logistiques et
           administratives.</p>
         <div id="NousRejoindre-button">
@@ -64,21 +65,23 @@
       </div>
 
       <div id="rejoindre-image">
-        <img src="<?= url('assets/images/#') ?>">
+        <img src="<?= url('assets/images/event2.png') ?>">
       </div>
 
     </div>
+</div>
   </section>
   <div class="divider2"></div>
-  <section id="soutenez-nous">
+  <section id="soutenez">
+    <div id="nous">
     <h2>Soutenez-nous en faisant un don</h2>
-    <div id="soutien-image">
-      <img src="<?= url('assets/images/#') ?>">
-    </div>
-
+    
     <div id="soutien-container">
+    <div id="soutien-image">
+      <img src="<?= url('assets/images/feuille.png') ?>">
+    </div>
       <div id="soutien-content">
-        <h3>Pourquoi faire un don à Games for a Better World ?</h3>
+        <h3>Pourquoi faire un don </h3><h3> à Games for a Better World ?</h3>
         <p>Votre soutien est absolument indispensable afin de développer des jeux vidéos vertueux. Notre association à
           but non lucratif dépend du soutien de financeurs. Sans eux, nous n'avons pas les moyens et ressources
           suffisantes pour continuer à créer des jeux qui changeront la société.</p>
@@ -86,6 +89,7 @@
           <a href="#">Faire un don</a>
         </div>
       </div>
+</div>
   </section>
   <div class="divider3">
     <div class="croire-content">
@@ -121,7 +125,7 @@
       
   </div>
 
-  <div class="placement-soutient">
+  <div class="placement-soutient2">
 
     <a href="<?= $page->soutient6() ?>">
       <div class="soutient-round">
